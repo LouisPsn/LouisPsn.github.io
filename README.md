@@ -1,2 +1,2 @@
 # LouisPsn.github.io
-My fortfolio
+My Portfolio
