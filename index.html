@@ -13,6 +13,7 @@
   <link rel="icon" type="image/png" href="images/black-n-white-PP.png" />
   <!--favicon-img-->
   <!--main css file should not be removed -->
+  <link rel="stylesheet" href="css/card.css" />
   <link rel="stylesheet" href="css/index.css" />
   <!--main css file-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
@@ -145,12 +146,14 @@
             </span>
             <br />
             <span class="about-second-line" align="justify">Hello, I'm Louis Pierson, an IT engineering student with a
-              robust foundation in software development, algorithm design, and project management. With work experience
+              robust foundation in software development, algorithm design, and project management. With work
+              experience
               that spans innovative geographic software development at Setics and VBA development at Praxair MRC, I
               bring a blend of technical expertise and practical application to the table. My voluntary engagements in
               robotics and web management underscore my commitment to technology and community. Fluent in English,
               French, and with academic proficiency in Spanish, I am a communicator and collaborator at heart. Whether
-              it's developing efficient software solutions or leading projects that blend technology and creativity, I'm
+              it's developing efficient software solutions or leading projects that blend technology and creativity,
+              I'm
               here to make your vision a reality. Let's connect and explore how we can work together to achieve your
               goals.</span>
             <div class="cv">
@@ -222,7 +225,8 @@
             <div class="service-description">
               <h2>Web Scraping</h2>
               <p>
-                Unlock the power of data with professional web scraping services, transforming information into insights
+                Unlock the power of data with professional web scraping services, transforming information into
+                insights
                 for strategic decision-making and growth
               </p>
             </div>
@@ -246,13 +250,6 @@
 
       <style>
         .filterDiv {
-          float: left;
-          background-color: #2196F3;
-          color: #ffffff;
-          width: 100px;
-          line-height: 100px;
-          text-align: center;
-          margin: 2px;
           display: none;
         }
 
@@ -281,22 +278,67 @@
         <button class="btn" onclick="filterSelection('Design')"><span class="colors">Design</span></button>
       </div>
 
-      <div class="skills-content"></div>
-      
-        <div class="filterDiv cars">BMW</div>
-        <div class="filterDiv colors fruits">Orange</div>
-        <div class="filterDiv cars">Volvo</div>
-        <div class="filterDiv colors">Red</div>
-        <div class="filterDiv cars">Ford</div>
-        <div class="filterDiv colors">Blue</div>
-        <div class="filterDiv animals">Cat</div>
-        <div class="filterDiv animals">Dog</div>
-        <div class="filterDiv fruits">Melon</div>
-        <div class="filterDiv fruits animals">Kiwi</div>
-        <div class="filterDiv fruits">Banana</div>
-        <div class="filterDiv fruits">Lemon</div>
-        <div class="filterDiv animals">Cow</div>
-      </div>
+
+      <section class="cards">
+        <div class="filterDiv front">
+          <div class="card animated">
+            <img src="images/logo/Bootstrap_logo.svg.png" width="80%">
+            <h2><br>Bootstrap</h2>
+          </div>
+        </div>
+        <div class="filterDiv soft">
+          <div class="card animated">
+            <img src="images/logo/C_Logo.png" width="80%">
+            <h2><br>C</h2>
+          </div>
+        </div>
+        <div class="filterDiv soft">
+          <div class="card animated">
+            <img src="images/logo/ISO_C++_Logo.svg.png" width="80%">
+            <h2><br>C++</h2>
+          </div>
+        </div>
+        <div class="filterDiv soft">
+          <div class="card animated">
+            <img src="images/logo/Cmake.svg.png" width="80%">
+            <h2><br>CMake</h2>
+          </div>
+        </div>
+        <div class="filterDiv soft">
+          <div class="card animated">
+            <img src="images/logo/Python-logo-notext.svg.png" width="80%">
+            <h2><br>Python</h2>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="cards">
+        <div class="filterDiv soft">
+          <div class="card animated">
+            <img src="images/logo/JavaFX_Logo.png" width="80%">
+            <h2><br>JavaFX</h2>
+          </div>
+        </div>
+      </section>
+
+      <style class="hover"></style>
+
+
+
+
+
+
+
+
+      <!-- <div class="filterDiv front">
+          <div class="card">
+            <img src="images/logo/Bootstrap_logo.svg.png" class="foto"
+              style="width:100%">
+            <header>
+              <h1>Bootstrap</h1>
+          </div>
+        </div> -->
       <!--about end-->
       <!--portfolio-->
       <div id="portfolio">
@@ -499,15 +541,9 @@
     <script src="js/particles.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/card.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
-
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
     <!--particles script-->
     <script>
       particlesJS("particles", {
@@ -573,5 +609,6 @@
       });
     </script>
 </body>
+
 
 </html>

@@ -778,7 +778,7 @@ body {
     position: absolute;
     width: 0%;
     height: 200%;
-    transform: rotate(-15deg) translateY(-50px) ;
+    transform: rotate(-15deg) translateY(-50px);
     top: 0;
     left: 0;
     z-index: -1;
@@ -815,7 +815,6 @@ button:hover .index {
     margin-top: 20px;
     margin-bottom: 80px;
 }
-
 
 
 .skill-html {
@@ -2989,3 +2988,24 @@ for tabs and large phones
         transition: all .4s ease;
     }
 }
+
+
+:root {
+    --color1: rgb(0, 231, 255);
+    --color2: rgb(255, 0, 231);
+    --back: url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
+    --charizard1: #fac;
+    --charizard2: #ddccaa;
+    --charizardfront: url(https://assets.codepen.io/13471/charizard-gx.webp);
+    --pika1: #54a29e;
+    --pika2: #a79d66;
+    --pikafront: url(https://assets.codepen.io/13471/pikachu-gx.webp);
+    --eevee1: #efb2fb;
+    --eevee2: #acc6f8;
+    --eeveefront: url(https://assets.codepen.io/13471/eevee-gx.webp);
+    --mewtwo1: #efb2fb;
+    --mewtwo2: #acc6f8;
+    --mewtwofront: url(https://assets.codepen.io/13471/mewtwo-gx.webp);
+}
+
+
