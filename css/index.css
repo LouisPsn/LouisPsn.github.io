@@ -1050,6 +1050,18 @@ button:hover .index {
 }
 
 .portfolio-image img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.portfolio-image iframe {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.portfolio-image embed {
     height: 400px;
     width: 100%;
     position: relative;
@@ -1278,7 +1290,7 @@ button:hover .index {
 .contact-info {
     width: 40%;
     height: 500px;
-    background: url(../images/contact-back.jpg);
+    background: url(../images/contact_photo.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 16px;
