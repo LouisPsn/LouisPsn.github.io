@@ -1050,7 +1050,7 @@ button:hover .index {
 }
 
 .portfolio-image img {
-    height: 100%;
+    height: 400px;
     width: 100%;
     position: relative;
 }
